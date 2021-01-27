@@ -12,3 +12,4 @@ if __name__ == '__main__':
     print(*[i for i in A if not i % 9 and i < 3])
     print(sum((1 for i in A if not i % 9 and i < 3)))
     print(sum((i for i in A if not i % 9 and i < 3)))
+
